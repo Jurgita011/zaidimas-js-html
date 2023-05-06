@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's play!</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <audio id="myAudio">
+        <source src="./killChicken.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="kaimas"></div>
+    <div class="timer" id="timer"></div>
+    <div class="result" id="result"></div>
+    <div class="wrapper">
+        <div class="info" id="info">
+            <div class="text-wrapper">
+                <p class="info-text" id="info-text">Spauskite OK, kad pradeti zaidima</p>
+            </div>
+            <button id="ok">OK</button>
+        </div>
+    </div>
+    <div class="square" id="square"></div>
+    <script src="./game.js" type="module" defer></script>
+</body>
+</html>
+
+
+<!-- 
+    
+
+Sukurkite žaidimą.
+
+Žaidimą žaidžia du žaidėjai: Player (Jūs) ir Kompiuteris. n
+
+Žaidimą sudaro 10 raundų, vieno raundo trukmė 30 sekundžių. 
+
+Raundą laimi tas žaidėjas kuris surenka daugiau taškų.
+
+Kiekvieno raundo pabaigoje atvaizduokite laimėtojo vardą, surinktus taškus raunde ir visus laimėtus roundus prie žaidėjų vardų.
+
+Žaidimo esmė:
+
+Puslapyje atvaizduojamas kvadratas (50px x 50px) kuris keičia savo atsitiktinę poziciją bei savo fono spalvą kas 1 sekundę. 
+
+Jeigu žaidėjas spėja per šį laiko tarpą paspausti ant kvadrato - taškas skiriamas jam. Priešingu atveju laimi kompiuteris.
+
+Kiekviename rounde naršyklėje atvaizduokite laikmatį skaičiuojantį roundo trukmę. 
+
+Pasibaigus žaidimui atvaizduokite laimėtojo vardą bei mygtuką, ant kurio paspaudus žaidimas būtų pradedamas iš naujo.
+ -->

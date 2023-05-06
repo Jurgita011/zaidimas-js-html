@@ -1,0 +1,18 @@
+{
+  "name": "zaidimas-js-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=4318",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jurgita",
+  "license": "MIT",
+  "devDependencies": {
+    "dead": "^0.0.2",
+    "dead-server": "^1.0.9",
+    "server": "^1.0.38"
+  }
+}

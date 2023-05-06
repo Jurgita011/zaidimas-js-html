@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(./dangus.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .kaimas{
+      position: relative;
+      z-index: -1;
+      background-image: url(./kaimas.png);
+      background-size: contain;
+      background-position: center bottom -20px;
+      background-repeat: no-repeat;
+      width:100vw;
+      height: 100vh;
+  }
+  .timer {
+      position: absolute;
+      top:50px;
+      left: 50px;
+      font-size: 45px;
+      font-weight: bold;
+      color: black;
+  }
+  
+  
+  .square {
+      /* display:none; */
+      --top: -100px;
+      --left: -100px;
+      --color: #888;
+      width:100px;
+      height:100px;
+      position:absolute;
+      top:var(--top);
+      left:var(--left);
+      /* background-color: var(--color); */
+      background-image: url(./gaidys.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  .info{
+    /* position: absolute;
+    top:25vh;
+    left:20vw; */
+    min-height:150px;
+    width:680px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 25px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 10px 10px #333;
+  }
